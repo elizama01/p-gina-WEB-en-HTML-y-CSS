@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+
+/* The grid: Four equal columns that floats next to each other */
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+
+/* Style the images inside the grid */
+
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* The expanding image container */
+
+.container {
+    position: relative;
+    display: none;
+    align-items: center;
+}
+
+
+/* Expanding image text */
+
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+
+/* Closable button inside the expanded image */
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+body {
+    background-image: url("../images/imagen8.jpg");
+}
+
+#textlogo {
+    color: rgba(57, 44, 202, 0.966);
+}
+
+header {
+    background-color: rgba(89, 14, 238, 0.082);
+    height: 100px;
+    margin: 0.25;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#menu {
+    float: right;
+    background-color: rgba(222, 184, 135, 0);
+    margin-top: 0.60;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+li a {
+    border-color: rgb(145, 17, 13);
+    border-width: 1cm;
+    border: 0.50cm;
+    margin-right: 0.50cm;
+    padding: 0.50cm;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: rgba(11, 7, 73, 0.185);
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgba(16, 38, 100, 0.288);
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(169, 169, 169, 0);
+}
