@@ -4,6 +4,10 @@
 
 body {
     margin: 0;
+<<<<<<< HEAD
+=======
+    font-family: Arial;
+>>>>>>> bd56100fddfc406337dd2c8ccf5889900065777f
 }
 
 
@@ -11,9 +15,14 @@ body {
 
 .column {
     float: left;
+<<<<<<< HEAD
     width: 10%;
     height: 10%;
     padding: 15px;
+=======
+    width: 25%;
+    padding: 10px;
+>>>>>>> bd56100fddfc406337dd2c8ccf5889900065777f
 }
 
 
@@ -25,7 +34,11 @@ body {
 }
 
 .column img:hover {
+<<<<<<< HEAD
     opacity: 2;
+=======
+    opacity: 1;
+>>>>>>> bd56100fddfc406337dd2c8ccf5889900065777f
 }
 
 
@@ -33,7 +46,11 @@ body {
 
 .row:after {
     content: "";
+<<<<<<< HEAD
     display: block;
+=======
+    display: table;
+>>>>>>> bd56100fddfc406337dd2c8ccf5889900065777f
     clear: both;
 }
 
@@ -74,9 +91,13 @@ body {
 }
 
 #textlogo {
+<<<<<<< HEAD
     color: rgb(239, 238, 255);
     font-size: 1cm;
     text-decoration: none;
+=======
+    color: rgba(57, 44, 202, 0.966);
+>>>>>>> bd56100fddfc406337dd2c8ccf5889900065777f
 }
 
 header {
@@ -122,6 +143,7 @@ li a:hover:not(.active) {
 footer {
     text-align: center;
     background-color: rgba(169, 169, 169, 0);
+<<<<<<< HEAD
 }
 
 img {
@@ -134,4 +156,6 @@ img {
 
 h1 {
     text-align: center;
+=======
+>>>>>>> bd56100fddfc406337dd2c8ccf5889900065777f
 }
