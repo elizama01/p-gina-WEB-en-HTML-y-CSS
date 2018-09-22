@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Inicio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/estilo2.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div id="logo">
+            <a id="textlogo" href="index.html">MUNDO MARINO</a>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="index.html">INICIO</a>
+                <a href="galeriaimagenes.html">GALERÌA IMÁGENES</a>
+                <a href="acercade.html">ACERCA DE </a>
+            </li>
+        </ul>
+
+    </header>
+    <!-- The four columns -->
+    <h1>⬇⬇Seleccione imagen para ver ⬇⬇ </h1>
+    <div class="row">
+        <div class="column">
+            <img src="images/imagen1.jpg" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="images/imagen2.jpg" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="images/imagen3.jpg" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="images/imagen4.jpg" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="images/imagen5.jpg" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="images/imagen6.jpg" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="images/imagen9.jpg" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="images/imagen10.jpg" onclick="myFunction(this);">
+        </div>
+    </div>
+
+    <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg">
+        <div id="imgtext"></div>
+    </div>
+
+    <script>
+        function myFunction(imgs) {
+            var expandImg = document.getElementById("expandedImg");
+            var imgText = document.getElementById("imgtext");
+            expandImg.src = imgs.src;
+            imgText.innerHTML = imgs.alt;
+            expandImg.parentElement.style.display = "block";
+        }
+    </script>
+
+    <footer>
+        <p>Pagina creada por e.lizama01@ufromail.cl</p>
+    </footer>
+</body>
+
+</html>
