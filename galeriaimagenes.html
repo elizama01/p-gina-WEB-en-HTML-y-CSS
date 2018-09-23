@@ -24,50 +24,41 @@
         </ul>
 
     </header>
-    <!-- The four columns -->
-    <h1>⬇⬇Seleccione imagen para ver ⬇⬇ </h1>
-    <div class="row">
-        <div class="column">
-            <img src="images/imagen1.jpg" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-            <img src="images/imagen2.jpg" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-            <img src="images/imagen3.jpg" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-            <img src="images/imagen4.jpg" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-            <img src="images/imagen5.jpg" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-            <img src="images/imagen6.jpg" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-            <img src="images/imagen9.jpg" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-            <img src="images/imagen10.jpg" onclick="myFunction(this);">
-        </div>
-    </div>
-
+    <h1>Imágenes fondo marino </h1>
     <div class="container">
-        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-        <img id="expandedImg">
-        <div id="imgtext"></div>
+
+        <div class="row">
+            <div class="column">
+                <img src="images/imagen1.jpg">
+            </div>
+            <div class="column">
+                <img src="images/imagen2.jpg">
+            </div>
+            <div class="column">
+                <img src="images/imagen3.jpg">
+            </div>
+            <div class="column">
+                <img src="images/imagen4.jpg">
+            </div>
+            <div class="column">
+                <img src="images/imagen5.jpg">
+            </div>
+            <div class="column">
+                <img src="images/imagen6.jpg">
+            </div>
+            <div class="column">
+                <img src="images/imagen9.jpg">
+            </div>
+            <div class="column">
+                <img src="images/imagen10.jpg">
+            </div>
+        </div>
     </div>
 
-    <script>
-        function myFunction(imgs) {
-            var expandImg = document.getElementById("expandedImg");
-            var imgText = document.getElementById("imgtext");
-            expandImg.src = imgs.src;
-            imgText.innerHTML = imgs.alt;
-            expandImg.parentElement.style.display = "block";
-        }
-    </script>
+
+
+
+
 
     <footer>
         <p>Pagina creada por e.lizama01@ufromail.cl</p>
